@@ -2,6 +2,7 @@
 
 ## Description
 
+Simple pdf spliter by name,id,date
 IL Default Paycheck pdf splitter
 This app will split multi page pdf file into seperate top tree of files like this
 
