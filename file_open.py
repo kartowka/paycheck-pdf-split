@@ -25,6 +25,8 @@ def pdf_splitter(path):
         for line in lines:
             if "לכבוד" in line:
                 name = next(lines)
+            if "חופשה ללא תשלום לחודש" in line:
+                date = (line.replace('/', '_')).split(" ")[0]
             if "תלוש שכר לחודש" in line:
                 date = (line.replace('/', '_')).split(" ")[0]
             if "מספר זהות" in line:
